@@ -3,7 +3,28 @@
     background-color: #2F242C;
 }
 .title-cards-teste{
-    font-size: 150%;
+  font-size: 150%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  padding: 0.5rem;
+}
+.card-body li{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  padding: 2px;
+}
+.card-body span{
+   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 2px;
+}
+.card-body button{
+  display: flex;
+  margin: 10px 0px 0px 0px ;
 }
 .card{
     width: 100%;  
@@ -14,6 +35,7 @@
 
 .card-model {
   width: 100%;
+  
 }
 
 @media (min-width: 576px) { /* Para telas SM e maiores */
