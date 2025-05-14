@@ -1,3 +1,35 @@
+@charset "utf-8";
 .cor-navbar{
     background-color: #2F242C;
+}
+.title-cards-teste{
+    font-size: 150%;
+}
+.card{
+    width: 100%;  
+}
+.card-body{
+    width: 100%;
+}
+
+.card-model {
+  width: 100%;
+}
+
+@media (min-width: 576px) { /* Para telas SM e maiores */
+  .card-model {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) { /* Para telas LG e maiores */
+  .card-model {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) { /* Para telas XL e maiores */
+  .card-model {
+    width: calc(140% / 6); /* Aproximadamente 16.67% */
+  }
 }
