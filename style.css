@@ -1,6 +1,13 @@
 @charset "utf-8";
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .cor-navbar{
-    background-color: #2F242C;
+    background-color: #00c2e4;
+}
+.nav-margin{
+  margin: -15px 0px 10px 0px;
 }
 .title-cards-teste{
   font-size: 150%;
@@ -17,7 +24,7 @@
   padding: 2px;
 }
 .card-body span{
-   font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 2px;
@@ -37,7 +44,9 @@
   width: 100%;
   
 }
-
+.tamanho-fonte{
+  font-size: 12pt;
+}
 .footer {
   background-color: #000;
   height: 20rem;
