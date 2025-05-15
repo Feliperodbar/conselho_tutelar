@@ -38,10 +38,50 @@
   
 }
 
+.footer {
+  background-color: #000;
+  height: 20rem;
+  width: 100%;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem 3.5rem;
+  justify-content:space-around;
+}
+#midias-sociais {
+  display: flex;
+  flex-direction: column;
+  
+}
+#redes-sociais {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 2rem;
+}
+.footer-link {
+  border-width: 0cm;
+  border-style: solid;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  text-decoration: none;align-items: center;
+  justify-content: center; border-style: solid;
+  border-radius: 50%;
+}
+#whatsapp {
+  background-color: #25D366; 
+}
+#instagram {
+  background-color: #9c25d3;
+}
+#facebook {
+  background-color: #0044ff;
+}
 @media (min-width: 576px) { /* Para telas SM e maiores */
   .card-model {
     width: 50%;
-  }
+  
 }
 
 @media (min-width: 992px) { /* Para telas LG e maiores */
