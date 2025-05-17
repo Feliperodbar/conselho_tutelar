@@ -1,70 +1,73 @@
 @charset "utf-8";
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-.cor-navbar{
-    background-color: #00c2e4;
+.cor-navbar {
+  background-color: #00c2e4;
 }
-.nav-margin{
+.nav-margin {
   margin: -15px 0px 10px 0px;
 }
-.title-cards-teste{
+.title-cards-teste {
   font-size: 150%;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
   height: 60px;
 }
-.card-body li{
+.card-body li {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: justify;
   padding: 2px;
 }
-.card-body span{
+.card-body span {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 2px;
 }
-.card-body button{
+.card-body button {
   display: flex;
-  margin: 10px 0px 0px 0px ;
+  margin: 10px 0px 0px 0px;
 }
-.card{
-    width: 100%;  
+.card {
+  width: 100%;
 }
-.card-body{
-    width: 100%;
+.card-body {
+  width: 100%;
 }
 
 .card-model {
   width: 100%;
   text-align: center;
 }
-.tamanho-fonte{
+.tamanho-fonte {
   font-size: 12pt;
 }
 .footer {
   background-color: #000;
-  height: 20rem;
   width: 100%;
   color: #fff;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 3rem 3.5rem;
-  justify-content:space-around;
+  padding: 2rem 2.5rem;
+  justify-content: space-around;
+}
+.titulo-footer {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 400;
 }
 #midias-sociais {
   display: flex;
   flex-direction: column;
-  
 }
 #redes-sociais {
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   gap: 2rem;
 }
 .footer-link {
@@ -74,12 +77,17 @@
   width: 2.5rem;
   height: 2.5rem;
   display: flex;
-  text-decoration: none;align-items: center;
-  justify-content: center; border-style: solid;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
   border-radius: 50%;
 }
+#frase-footer {
+  font-size: 12px;
+}
 #whatsapp {
-  background-color: #25D366; 
+  background-color: #25d366;
 }
 #instagram {
   background-color: #9c25d3;
@@ -87,19 +95,38 @@
 #facebook {
   background-color: #0044ff;
 }
-@media (min-width: 576px) { /* Para telas SM e maiores */
-  .card-model {
-    width: 50%;
-  
+#endereco-link {
+  gap: 5px;
+  display: flex;
+  align-content: center;
+}
+#contatos {
+  display: flex;
+  flex-direction: column;
+}
+.lista-footer {
+  list-style: none;
 }
 
-@media (min-width: 992px) { /* Para telas LG e maiores */
+.list-p-size {
+  font-size: 13px;
+}
+@media (min-width: 576px) {
+  /* Para telas SM e maiores */
+  .card-model {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Para telas LG e maiores */
   .card-model {
     width: 25%;
   }
 }
 
-@media (min-width: 1200px) { /* Para telas XL e maiores */
+@media (min-width: 1200px) {
+  /* Para telas XL e maiores */
   .card-model {
     width: calc(140% / 6); /* Aproximadamente 16.67% */
   }
