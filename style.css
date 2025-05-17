@@ -54,12 +54,12 @@
   color: #fff;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 2rem 2.5rem;
-  justify-content: space-around;
+  padding-top: 1rem;
+  place-items: center;
 }
 .titulo-footer {
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 400;
 }
 #midias-sociais {
@@ -68,8 +68,8 @@
 }
 #redes-sociais {
   display: flex;
-  margin-top: 1rem;
   gap: 2rem;
+  margin-bottom: 5px;
 }
 .footer-link {
   border-width: 0cm;
@@ -86,6 +86,7 @@
 }
 #frase-footer {
   font-size: 12px;
+  margin-bottom: 5px;
 }
 #whatsapp {
   background-color: #25d366;
@@ -111,6 +112,61 @@
 
 .list-p-size {
   font-size: 13px;
+}
+
+@media screen and (max-width: 426px) {
+  .footer {
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  #midias-sociais,
+  #endereco,
+  #contatos {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #redes-sociais {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  #frase-footer {
+    font-size: 15px;
+    margin-top: 0.5rem;
+  }
+
+  #endereco-link {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    text-align: center;
+  }
+
+  .titulo-footer {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+
+  .list-p-size {
+    font-size: 15px;
+  }
+
+  .footer-link {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1rem;
+  }
 }
 @media (min-width: 576px) {
   /* Para telas SM e maiores */
